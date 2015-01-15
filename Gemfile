@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
@@ -28,6 +28,27 @@ gem 'spring',        group: :development
 
 gem 'haml', '~> 4.0.6'
 gem 'haml-rails'
+
+group :development do
+  gem 'abstract_type', '0.0.7'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'annotate'
+  gem 'bullet'
+  gem 'flay'
+  gem 'hirb'
+  gem 'mailcatcher'
+  gem 'meta_request','0.2.1'
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'quiet_assets'
+  gem 'railroady'
+  gem 'rails-footnotes', '>= 3.7.5.rc4'
+  gem 'rails_best_practices'
+  gem 'reek'
+  gem 'request-log-analyzer'
+  gem 'smusher'
+end
 
 
 # Use ActiveModel has_secure_password
